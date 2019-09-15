@@ -40,8 +40,8 @@ Page({
             ],
             categories: [
                 {id: 0, name: "全部"},
-                {id: 1, name: "川菜"},
-                {id: 2, name: "东北菜"},
+                {id: 1, name: "连载"},
+                {id: 2, name: "完结"},
             ],
             activeCategoryId: 0,
 			goods: [
@@ -106,13 +106,13 @@ Page({
     tapBanner: function (e) {
         if (e.currentTarget.dataset.id != 0) {
             wx.navigateTo({
-                url: "/pages/food/info?id=" + e.currentTarget.dataset.id
+                url: "/pages/novel/info?id=" + e.currentTarget.dataset.id
             });
         }
     },
     toDetailsTap: function (e) {
         wx.navigateTo({
-            url: "/pages/food/info?id=" + e.currentTarget.dataset.id
+            url: "/pages/novel/info?id=" + e.currentTarget.dataset.id
         });
     }
 });

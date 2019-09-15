@@ -1,15 +1,19 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/food/index",
-    "pages/food/info",
+    "pages/bookCity/bookCity",
+    "pages/novel/index",
+    "pages/novel/info",
     "pages/order/index",
     "pages/cart/index",
+    "pages/bookshelf/bookshelf",
+    "pages/search/search",
     "pages/my/order_list",
     "pages/my/order_info",
     "pages/my/addressList",
     "pages/my/addressSet",
     "pages/my/commentList",
+    "pages/my/comment",
     "pages/my/index"
   ],
   "window": {
@@ -26,23 +30,24 @@
     "box-shadow": "0 0 6px 0",
     "list": [
       {
-        "pagePath": "pages/food/index",
-        "iconPath": "images/nav/home-off.png",
-        "selectedIconPath": "images/nav/home-on.png",
-        "text": "首页"
+        "pagePath": "pages/bookshelf/bookshelf",
+        "iconPath": "images/nav/booklist_gray.png",
+        "selectedIconPath": "images/nav/booklist.png",
+        "text": "阅架"
       },
       {
-        "pagePath": "pages/cart/index",
-        "iconPath": "images/nav/cart-off.png",
-        "selectedIconPath": "images/nav/cart-on.png",
-        "text": "购物车"
+        "pagePath": "pages/bookCity/bookCity",
+        "iconPath": "images/nav/tuijian_gray.png",
+        "selectedIconPath": "images/nav/tuijian.png",
+        "text": "聆域"
       },
       {
-        "pagePath": "pages/my/index",
-        "iconPath": "images/nav/my-off.png",
-        "selectedIconPath": "images/nav/my-on.png",
-        "text": "我的"
+        "pagePath": "pages/search/search",
+        "iconPath": "images/nav/search.png",
+        "selectedIconPath": "images/nav/selectedSearch.png",
+        "text": "搜索"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

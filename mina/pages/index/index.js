@@ -1,4 +1,4 @@
-//login.js
+//index.js
 //获取应用实例
 var app = getApp();
 Page({
@@ -10,7 +10,7 @@ Page({
     },
     goToIndex: function () {
         wx.switchTab({
-            url: '/pages/food/index',
+          url: '/pages/bookCity/bookCity',
         });
     },
     onLoad: function () {
@@ -52,7 +52,7 @@ Page({
                     return;
                 }
                 wx.request({
-                    url: app.buildUrl('/member/check-reg'),
+                    url: app.buildUrl('/member/check_reg'),
                     header: app.getRequestHeader(),
                     method: 'POST',
                     data: {code: res.code},
