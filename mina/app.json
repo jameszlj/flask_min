@@ -1,20 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/bookCity/bookCity",
-    "pages/novel/index",
-    "pages/novel/info",
-    "pages/order/index",
-    "pages/cart/index",
-    "pages/bookshelf/bookshelf",
-    "pages/search/search",
-    "pages/my/order_list",
-    "pages/my/order_info",
-    "pages/my/addressList",
-    "pages/my/addressSet",
-    "pages/my/commentList",
-    "pages/my/comment",
-    "pages/my/index"
+    "pages/book/index",
+    "pages/detail/detail",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,21 +19,15 @@
     "box-shadow": "0 0 6px 0",
     "list": [
       {
-        "pagePath": "pages/bookshelf/bookshelf",
-        "iconPath": "images/nav/booklist_gray.png",
-        "selectedIconPath": "images/nav/booklist.png",
-        "text": "阅架"
-      },
-      {
-        "pagePath": "pages/bookCity/bookCity",
-        "iconPath": "images/nav/tuijian_gray.png",
-        "selectedIconPath": "images/nav/tuijian.png",
+        "pagePath": "pages/book/index",
+        "iconPath": "images/booklist_gray.png",
+        "selectedIconPath": "images/booklist.png",
         "text": "聆域"
       },
       {
         "pagePath": "pages/search/search",
-        "iconPath": "images/nav/search.png",
-        "selectedIconPath": "images/nav/selectedSearch.png",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/selectedSearch.png",
         "text": "搜索"
       }
     ]

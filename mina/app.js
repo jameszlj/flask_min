@@ -1,7 +1,8 @@
 //app.js
 App({
-    onLaunch: function () {
-    },
+  onLaunch() {
+  },
+
     globalData: {
         userInfo: null,
         version: "1.0",
@@ -83,5 +84,8 @@ App({
             data: value
         })
 
-    }
+    },
+  dateFormat: date => {
+    return `${date.getHours()}:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}`
+  }
 });

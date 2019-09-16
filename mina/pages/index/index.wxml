@@ -1,13 +1,13 @@
 <!--start.wxml-->
 <view class="container">
     <view class="remind-box" wx:if="{{ remind }}">
-        <image class="remind-img" src="/images/more/loading.gif"></image>
+        <image class="remind-img" src="/images/loading.gif"></image>
     </view>
     <block wx:else>
         <view class="content">
             <view class="hd" style="transform:rotateZ({{ angle }}deg);">
-                <image class="logo" src="/images/more/timg.png"></image>
-                <image class="wave" src="/images/more/wave.png" mode="aspectFill"></image>
+                <image class="logo" src="/images/timg.png"></image>
+                <image class="wave" src="/images/wave.png" mode="aspectFill"></image>
             </view>
             <view class="bd">
 
